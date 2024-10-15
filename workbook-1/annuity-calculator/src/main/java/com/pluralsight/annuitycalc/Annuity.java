@@ -43,13 +43,11 @@ public static void main(String[] args) {
     double interest = inputScanner.nextDouble();
 
     System.out.print("In years, please put how long you would want it to be.: ");
-    double amountofTime = inputScanner.nextDouble();
+    double amountofYears = inputScanner.nextDouble();
 
     System.out.print("Congrats, your amount of investment requires a total of: ");
-    double presentValue = annuityValue(monthlyPayout, interest, amountofTime);
+    double presentValue = annuityValue(monthlyPayout, interest, amountofYears);
     System.out.println(presentValue);
-
-
 
 
     }
